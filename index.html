@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&family=Barlow:wght@600;700&display=swap" rel="stylesheet">
+  <!-- CSS stylesheet -->
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+  <!-- Game area-->
+
+  <!-- truimphedorlost -->
+  <div class="truimphorlose container-fluid hide display">
+    <h1 class="truimph">WELL DONE✌.YOU HAVE DEFEATED THE MACHINE!!! REFRESH BROWSER TO PLAY AGAIN.</h1>
+    <h1 class="lose">SORRY😥. THE MACHINE HAS DEFEATED YOU!!! REFRESH BROWSER TO PLAY AGAIN.</h1>
+  </div>
+
+  <!-- Rules file -->
+  <div class="container-fluid rules hide display">
+    <img class="close" src="images/icon-close.svg" alt="image">
+    <h2>RULES</h2>
+    <img class="rulesbonus" src="images/image-rules-bonus.svg" alt="image">
+    <p>SCORE TO TRUIMPH-25</p>
+    <p>SCORE TO LOSE OUT-0</p>
+  </div>
+
+  <div class="container-fluid screen lg-12">
+    <!-- Logo and Scorecard -->
+  <div class="topportion container-fluid">
+    <img src="images/logo-bonus.svg" alt="image">
+    <div class="score">
+      <p>SCORE</p>
+      <h1>12</h1>
+    </div>
+  </div>
+  <!-- Afetr picking -->
+  <div class="aaa hide">
+    <div class="aaa1">
+      <p>YOU PICKED</p>
+      <div class="aaa2">
+        <div class="youpicked container playarea">
+          <img class="circle" src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- WinorLose&replaybutton -->
+  <div class="container winorlose hide display">
+    <h1>YOU WIN</h1>
+    <button class="btn btn-lg btn-light" type="button" name="button">PLAY AGAIN</button>
+  </div>
+
+
+  <div class="bbb hide">
+    <div class="bbb1">
+      <p>THE HOUSE PICKED</p>
+      <div class="bbb2">
+        <div class="youpicked container playarea">
+          <img class="circle" src="" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="pentagondiv">
+  <img class="pentagon" src="images/bg-pentagon.svg" alt="image">
+    <div class="playobjects container">
+
+      <img class="pictures lizard" src="images/icon-lizard.svg" alt="image">
+      <img class="pictures paper" src="images/icon-paper.svg" alt="image">
+      <img class="pictures rock" src="images/icon-rock.svg" alt="image">
+      <img class="pictures scissors" src="images/icon-scissors.svg" alt="image">
+      <img class="pictures spock" src="images/icon-spock.svg" alt="image">
+
+
+  </div>
+</div>
+<!-- Rules button -->
+<a class="rulesbutton btn btn-lg btn-outline-light">RULES</a>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Aswin Bhagyanath</a>.
+  </div>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
