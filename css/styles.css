@@ -336,7 +336,7 @@ background-color: #16213e;
 .attribution a { color: hsl(228, 45%, 44%); }
 /* Tablet size */
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   /* Topportion */
   .topportion{
     width: 70%;
