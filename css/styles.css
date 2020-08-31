@@ -521,8 +521,13 @@ right: 25%;
   padding-bottom: 10%;
 }
 .close{
-  height: 5%;
+  padding: 0;
+  height: 8%;
+  width: 7%;
   float: none;
+  position: relative;
+  z-index: 12;
+  background-color: #fff;
 }
 .rules img{
   padding-bottom: 10%;
