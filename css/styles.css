@@ -9,6 +9,10 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
+  left:0;
+  right: 0;
+  top:0;
+  bottom:0;
   z-index: -2;
   background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
 }
@@ -20,7 +24,7 @@ body {
   bottom: 20%;
   background-color: #fff;
   width: 30%;
-  height: 68%;
+  height: 75%;
   padding: 2%;
   border-radius: 5%;
 }
