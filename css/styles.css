@@ -52,18 +52,6 @@ body {
 .rules img{
   position:
 }
-/* Close icon */
-/* .close {
-  position: absolute;
-  right: 1%;
-  top: 3%;
-  padding: 5px;
-
-  height: 1rem;
-  width: 1rem;
-  border-radius: 100%;
-} */
-
 
 /* You picked house picked */
 .aaa{
@@ -348,7 +336,7 @@ background-color: #16213e;
 .attribution a { color: hsl(228, 45%, 44%); }
 /* Tablet size */
 
-@media (max-width: 775px) {
+@media (max-width: 800px) {
   /* Topportion */
   .topportion{
     width: 70%;
@@ -440,7 +428,7 @@ background-color: #16213e;
 
 }
 /* Mobile size */
-@media (max-width: 385px) {
+@media (max-width: 400px) {
   /* Screen */
   .screen{
     height: 100%;
