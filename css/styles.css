@@ -569,8 +569,10 @@ width: 80%;
   width: 500%;
 }
 .winorlose button{
-  width: 500%;
-}
+  width: 250%;
+  position: absolute;
+  left: 35%;
+  }
 .truimphorlose{
   width: 100%;
   height: 100%;
